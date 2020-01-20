@@ -25,7 +25,28 @@
 
     <!-- Font icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<style>  
+.count {
+  color:#ff0000 ;
+  text-align: center;
+}
 
+l span {
+  display: block;
+  font-size: 3.5rem;
+  font-style:Impact;
+  
+}
+l {
+  display: inline-block;
+  font-size: 1.9em;
+  font-style:italic;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-color: #ff0000;
+}
+</style>
 
 
 </head>
@@ -55,7 +76,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About us</a></li>
                     <li><a href="blogs.html">Blog</a></li>
-                    <li><a href="Pitch A Thon.html">Pitch A Thon</a></li>
+                    <li><a href="pitchathon.html">Pitch A Thon</a></li>
                     <li><a href="news-article.html">News Article</a></li>
                 </ul>
             </nav>
@@ -68,6 +89,7 @@
                             <a href="https://www.facebook.com/ennovab" target="_blank"><i class="fab fa-facebook"></i>  </a>
                             <a href="https://twitter.com/ennovabap " target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> </a>
                             <a href="https://www.instagram.com/ennovab/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
+			    <a href="https://medium.com/@ennovab.ap" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i>  </a>
                         </div>
                     </li>
                 </ul>
@@ -81,7 +103,7 @@
             <div id="particles-js"></div>
             <div class="home-content">
                <p>
-                <h1 class="hero-title">Entrepreneurial <br><span>Innovation Lab</span></h1>
+                <h1 class="hero-title">Pitch A Thon <br><span>2020</span></h1>
                 <p class="top_45">We are the entrepreneurs at SRM University, AP - Amaravati.<br>Our entrepreneurs <span class="element" data-text1="innovate." data-text2="disrupt." data-text3="scale. " data-loop="true" data-backdelay="1500"></span></p>
                 <div class="social">
                     <a class="text"><strong>social links</strong></a>
@@ -90,12 +112,33 @@
                     <a href="https://www.twitter.com/ennovabap" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
                     <a href="https://www.instagram.com/accounts/login/?next=%2Fennovab%2F&source=follow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
                     <a href="https://www.linkedin.com/company/ennovabap/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>  </a>
-                    
+                    <a href="https://medium.com/@ennovab.ap" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i>  </a>
                 </div>
             </div>
-        </section>
+	</section>
+            <div class="count">
+  		<ul>
+   		 	<l><span id="days"></span>days</l>
+    			<l><span id="hours"></span>Hours</l>
+    			<l><span id="minutes"></span>Minutes</l>
+   			<l><span id="seconds"></span>Seconds</l>
+  		</ul>
+	</div>
         <div class="about_section" class="container-fluid" class="container-fluid">
-        <h2 >About Pitchathon </h2>
+        <h1>About Pitchathon 2K19 </h2>
+	<br>
+                    <a href="https://medium.com/enblog/pitchathon-2k19-e1adcf7dfdfc" >
+                        <article class="news-box">
+                            <img src="images/env.png" alt="">
+                            		
+                            <h4 class="title">Team Ennovab 2019</h4>
+                            <p>Ennovab, the Entrepreneurial Innovation Lab of SRM AP, organized the first ever 24-hour business plan competition of SRM AP....</p>
+                            <div class="information"><span> February 15, 2019</span></div>
+     
+                    </a>
+         
+        <h4 class="about_textColor">
+	<h2 >About Pitchathon </h2>
         <br>
         <h4 class="about_textColor">Pitchathon is an event, enabling aspiring entrepreneurs to plan and start-up their ventures. The event is open to all students, coming from technical and non-technical fields of interest. Under the mission of bringing the aptitudinal and diverse Indian entrepreneurship community together to bring a change and add value in the lives of people.
         </h4>
@@ -126,6 +169,9 @@
                     <div style="display:flex;justify-content: center;" class="our-sponsor-area d-flex flex-wrap">
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="color:white">
                             <a target="_blank" rel="noopener noreferrer" href="https://codingblocks.com/"><img src="images/codingblocks.png" alt="codingblocks"></a>
+                        </div>
+			<div class="single-sponsor wow fadeInUp" data-wow-delay="300ms" style="color:white">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.redbull.com/in-en/"><img src="images/redbull.png" alt="redbull"></a>
                         </div>
             <!--             <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.digitalocean.com/"><img src="/img/sponsors-img/digital-ocean.png" alt="Digital Ocean"></a>
@@ -380,11 +426,12 @@
                 </div>
                 <div class="col-md-4 d-sm-none d-md-block">
                     <div class="social">
-                        <a href="https://www.facebook.com/ennovab/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.twitter.com/ennovabap" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/accounts/login/?next=%2Fennovab%2F&source=follow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
-                    <a href="https://www.linkedin.com/company/ennovabap/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>  </a>
-                    </div>
+                        <a hre`f="https://www.facebook.com/ennovab/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    	<a href="https://www.twitter.com/ennovabap" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                   	<a href="https://www.instagram.com/accounts/login/?next=%2Fennovab%2F&source=follow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
+                    	<a href="https://www.linkedin.com/company/ennovabap/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>  </a>
+		   	<a href="https://medium.com/@ennovab.ap" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i>  </a>                    
+		   </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block getintouch">
                     <a href="#">
@@ -397,6 +444,25 @@
     </footer>
 
     <!-- Javascripts -->
+    <script>
+	const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('Feb 6, 2020 00:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+    }, second)
+</script>
+
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
     <script src="js/typed.js"></script>
@@ -413,7 +479,6 @@
     <script src="faq/jquery/jquery.min.js"></script>
     <script src="faq/popper/popper.min.js"></script>
     <script src="faq/bootstrap/js/bootstrap.min.js"></script>
-
-
+    
 </body>
 </html>
