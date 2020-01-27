@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-    background: #1f1f1f !important;
+    background: linear-gradient(180deg, #66ff99 , #66ccff); !important
 }
 
 #particles-js {
@@ -56,7 +56,7 @@ footer .getintouch strong {
     text-align: center;
 }
 .about_textColor{
-    color: #D3D3D3;
+    color:#404040;
 }
 
 
@@ -114,7 +114,7 @@ hr{
 }
 
 .owl-carousel.work-areas .area p {
-    color: #b0b0b0;
+    color: #0000;
 }
 
 .owl-theme .owl-controls .owl-page span{
@@ -149,7 +149,7 @@ textarea.form-message {
 }
 
 p {
-    color: #e0e0e0;
+    color: #0d0d0d;
 }
 
 .contact .contact-info a {
@@ -170,7 +170,7 @@ p {
 }
 
 .news-article .information {
-    color: #fff;
+    color: #4d4d4d;
 }
 
 .news-article blockquote {
@@ -178,19 +178,21 @@ p {
 }
 
 .subtitle {
-    color: #fff;
+    color:#000000
+;
 }
 
+	
 .article-comments .comment {
-    border-bottom: solid 1px #414141;
+    border-bottom: solid 1px  #4d4d4d;
 }
 
 .article-comments .comment-content p {
-    color: #b9b9b9;
+    color:  #4d4d4d;
 }
 
 .article-comments .comment-content .date {
-    color: #b4b4b4;
+    color: #4d4d4d;
 }
 
 .widget-latest-news ul li p {
