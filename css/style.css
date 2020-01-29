@@ -311,7 +311,7 @@ header{
 
 
 .home .home-content .hero-title{
-    font-size: 140px;
+    font-size: 100px;
     font-weight: 900;
     letter-spacing: -4px;
     line-height: 125px;
@@ -1030,10 +1030,10 @@ header.white .nav-icon span {
 .footer{
     width: 100%;
     padding: 60px 0 41px;
-    /*position: fixed;*/
+    position: fixed;
     z-index: 0;
     bottom: 0;
-    background: #efefef;
+    background-color: #000000;
 }
 
 footer.copyright p{
