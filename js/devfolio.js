@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let devfolioOptions = {
         buttonSelector: '#devf
 olio-apply-now',
-        key: 'myhackathonkey',
+        key: 'pitchathon',
     }
 
     let script = document.createElement('script');
