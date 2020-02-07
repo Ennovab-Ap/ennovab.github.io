@@ -1,3 +1,3 @@
 # Ennovab
 
-https://ennovab-ap.github.io/Ennovab/
+https://ennovab.tech
