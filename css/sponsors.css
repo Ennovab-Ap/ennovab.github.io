@@ -1,5 +1,6 @@
 .sponsor_back{
     background-image: url(../images/resister.png);
+    background-repeat: round;
     text-align: center;
 }
 .our-sponsor-client-area {
