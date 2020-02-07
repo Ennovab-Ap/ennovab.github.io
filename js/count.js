@@ -4,7 +4,7 @@
       hour = minute * 60,
       day = hour * 24;
 
-    let countDown = new Date('Feb 6, 2020 00:00:00').getTime(),
+    let countDown = new Date('Mar 14, 2020 00:00:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
