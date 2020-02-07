@@ -1,21 +1,21 @@
 #abt_sec_color{
   background-color: #fff;
 }
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area {
   padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
 }
 
-/* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .shape-1 {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .shape-2 {
   position: absolute;
   bottom: 15%;
@@ -23,14 +23,14 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area .shape-2 {
     bottom: 3%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -38,25 +38,25 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-/* line 26, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_thumb {
   position: relative;
   z-index: 2;
 }
 
-/* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_thumb img {
   width: 100%;
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_thumb .exprience {
   position: absolute;
   top: 50%;
@@ -70,7 +70,6 @@
   left: 50%;
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb .exprience h1 {
   color: #131313;
   font-weight: 700;
@@ -79,13 +78,13 @@
 }
 
 @media (max-width: 767px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area .about_thumb .exprience h1 {
     font-size: 30px;
   }
 }
 
-/* line 52, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_thumb .exprience span {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -95,19 +94,19 @@
 }
 
 @media (max-width: 767px) {
-  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area .about_info {
     margin-top: 30px;
   }
 }
 
-/* line 65, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_info .about_list {
   margin-bottom: 50px;
   margin-top: 34px;
 }
 
-/* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_info .about_list li {
   font-weight: 400;
   font-size: 16px;
@@ -119,13 +118,13 @@
 }
 
 @media (max-width: 767px) {
-  /* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area .about_info .about_list li {
     font-size: 14px;
   }
 }
 
-/* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_info .about_list li::before {
   content: "";
   background: #02c856;
@@ -139,7 +138,7 @@
   transform: translateY(-50%);
 }
 
-/* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_info p {
   font-size: 16px;
   font-weight: 400;
@@ -150,31 +149,31 @@
 }
 
 @media (max-width: 767px) {
-  /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .about_area .about_info p {
     margin-bottom: 30px;
   }
 }
 
-/* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .about_area .about_info a {
   text-align: center;
 }
 
-/* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .dream_service {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .dream_service.extra_padding2 {
   padding-top: 200px;
   padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service.extra_padding2 {
     padding-top: 30px;
     padding-bottom: 0px;
@@ -182,7 +181,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 114, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service.extra_padding2 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -190,40 +189,40 @@
 }
 
 @media (max-width: 767px) {
-  /* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service {
     padding-top: 30px;
     padding-bottom: 0px;
   }
 }
 
-/* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .dream_service .single_dream {
   padding: 0 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service .single_dream {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 130, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service .single_dream {
     padding: 0 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .dream_service .single_dream .thumb img {
     width: 100%;
   }
 }
 
-/* line 146, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .dream_service .single_dream h3 {
   color: #131313;
   font-size: 26px;
@@ -232,7 +231,7 @@
   margin-bottom: 20px;
 }
 
-/* line 153, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .dream_service .single_dream p {
   margin-bottom: 0;
   line-height: 28px;
@@ -240,12 +239,12 @@
   color: #808080;
 }
 
-/* line 161, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .youtube_bg {
   background-image: url(../img/video/youtube_bg.png);
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .youtube_video_area .youtube_video {
   height: 580px;
   display: -webkit-box;
@@ -265,13 +264,13 @@
 }
 
 @media (max-width: 767px) {
-  /* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+  
   .youtube_video_area .youtube_video {
     height: 400px;
   }
 }
 
-/* line 175, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .youtube_video_area .youtube_video .youtube_play_btn a {
   background: #d7143a;
   color: #fff;
@@ -284,7 +283,7 @@
   border-radius: 15px;
 }
 
-/* line 185, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
+
 .youtube_video_area .youtube_video .youtube_play_btn a i {
   position: relative;
   top: -2px;
