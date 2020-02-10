@@ -9,7 +9,7 @@
 .classy-nav-container {
   position: relative;
   z-index: 1;
-  background-color: #1f1f1f ; }
+  background-color:  #1f1f1f ; }
   .classy-nav-container * {
     box-sizing: border-box; }
   .classy-nav-container a {
@@ -43,10 +43,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: right;
-  -ms-flex-align: right;
-  -ms-grid-row-align: right;
-  align-items: right; }
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center; }
   .classy-navbar .nav-brand {
     font-size: 26px;
     font-weight: 500;
