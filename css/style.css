@@ -1780,7 +1780,10 @@ textarea.form-message{
     .portfolio-single.type-3 .title {
         font-size: 50px;
     }
-  
+
+   .count ul l {
+    font-size: 10px;
+  }  
 }
 
 
@@ -1802,6 +1805,9 @@ textarea.form-message{
         padding-left: 0 !important;
     }
 
+   .count ul l {
+    font-size: 10px;
+  }
 }
 
 
@@ -1927,6 +1933,9 @@ textarea.form-message{
         height: 370px;
     }
 
+   .count ul l {
+    font-size: 9px;
+  }
 }
 
 
@@ -2118,16 +2127,11 @@ textarea.form-message{
 
     .wrapper {
         padding-bottom: 60px;
-    }
-
-  
+    } 
+    .count ul l {
+    font-size: 9px;
+  }
 }
-
-
-
-
-
-
 
 
 
