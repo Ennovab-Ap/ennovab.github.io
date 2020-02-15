@@ -1,5 +1,8 @@
 .sponsor_back{
     background-image: url(../images/banner_1.png);
+    max-width: 100%;
+    display: block;
+    height: auto;
     background-repeat: round;
     text-align: center;
 }
@@ -8,7 +11,11 @@
   z-index: 1;
 
 }
-
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 .our-sponsor-area {
   position: relative;
   z-index: 1;
