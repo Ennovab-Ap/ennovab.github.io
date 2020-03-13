@@ -18,23 +18,23 @@
     // {
     //   date: moment(now).add(1, 'day'),
     //   agenda: [
-    //     {start: 0, end: 859, display: {h:8, m:30, a: 'am'}, location: 'Underscore Coffee Bar', desc: 'Breakfast Club Donuts + Coffee'},
-    //     {start: 900, end: 959, display: {h:9, m:'', a: 'am'}, location: 'Solaris Terminal', desc: 'Aspirin Session Open forum to discuss headaches and pains, Q&A, tools & tricks, etc.'},
-    //     {start: 1000, end: 1159, display: {h:10, m:'', a: 'am'}, location: '', desc: 'Hacking Session 3'},
-    //     {start: 1200, end: 1229, display: {h:'Noon', m:'', a: '-ish'}, location: 'Break Room', desc: 'LUNCH: Taco Tuesday!'},
-    //     {start: 1230, end: 1529, display: {h:12, m:30, a: 'pm'}, location: '', desc: 'Hacking Session 4'},
-    //     {start: 1530, end: 1900, display: {h:3, m:30, a: 'pm'}, location: 'Underscore Coffee Bar', desc: 'Team Check-in'},
-    //     {start: 1901, end: 1959, display: {h:7, m:'', a: 'pm'}, location: 'Hackers Bar & Grill <br /><small>@ Second and Main</small>', desc: 'Dinner!'}
+    //     {start: 0, end: 859, display: {h:8, m:30, a: 'am'}, location: 'ALC1, Academic Block', desc: 'Introduction to Pitchathon'},
+    //     {start: 900, end: 959, display: {h:9, m:'', a: 'am'}, location: 'ALC1, Academic Block', desc: 'speed dating '},
+    //     {start: 1000, end: 1159, display: {h:10, m:'', a: 'am'}, location: 'ALC1, Academic Block', desc: 'problem statement  ( how might we )'},
+    //     {start: 1200, end: 1229, display: {h:'Noon', m:'', a: '-ish'}, location: 'ALC1, Academic Block', desc: 'your idea'},
+    //     {start: 1230, end: 1529, display: {h:12, m:30, a: 'pm'}, location: 'ALC1, Academic Block', desc: 'snacks'},
+    //     {start: 1530, end: 1900, display: {h:3, m:30, a: 'pm'}, location: 'ALC1, Academic Block', desc: 'business model '},
+    //     {start: 1901, end: 1959, display: {h:7, m:'', a: 'pm'}, location: 'ALC1, Academic Block', desc: 'Dinner!'}
     //   ]
     // },
     // {
     //   date: moment(now).add(2, 'day'),
     //   agenda: [
-    //     {start: 0, end: 829, display: {h:8, m:30, a: 'am'}, location: 'Underscore Coffee Bar', desc: 'Breakfast Club Donuts + Coffee'},
-    //     {start: 1000, end: 1159, display: {h:10, m:'', a: 'am'}, location: '', desc: 'Hacking Session 5'},
-    //     {start: 1200, end: 1229, display: {h:'Noon', m:'', a: '-ish'}, location: 'Break Room', desc: 'LUNCH: Taco Tuesday!'},
-    //     {start: 1230, end: 1529, display: {h:12, m:30, a: 'pm'}, location: '', desc: 'am Hacking Session 6'},
-    //     {start: 1530, end: 1900, display: {h:3, m:30, a: 'pm'}, location: 'Underscore Coffee Bar', desc: 'Show & Tell Happy Hour'},
+    //     {start: 0, end: 829, display: {h:8, m:30, a: 'am'}, location: 'Underscore Coffee Bar', desc: 'market research '},
+    //     {start: 1000, end: 1159, display: {h:10, m:'', a: 'am'}, location: '', desc: 'kahoot'},
+    //     {start: 1200, end: 1229, display: {h:'Noon', m:'', a: '-ish'}, location: 'midnight snacks'},
+    //     {start: 1230, end: 1529, display: {h:12, m:30, a: 'pm'}, location: '', desc: 'product ( MVP ) / value proposition'},
+    //     {start: 1530, end: 1900, display: {h:3, m:30, a: 'pm'}, location: 'competitors'},
     //   ]
     }
   ]
