@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 /* font-family: 'Josefin Sans', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -44,51 +47,44 @@ h6 {
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.section-title {
+	text-align: center;
+	margin: 7% 0;
+	text-transform: capitalize;
+	font-size: 9vw;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif !important;
+	color: rgba(255, 255, 255, 0);
+	-webkit-text-stroke: 3px var(--gray);
+}
+
+.section-title span {
+	-webkit-text-stroke: 3px var(--accent-color);
+	font-size: 12vw;
+	margin-left: 7px;
+}
+
 @media (max-width: 768px) {
-	.cursor {
-		display: none;
+	.section-title {
+		-webkit-text-stroke: unset;
+		color: var(--gray);
+		font-size: 12vw;
+		margin-bottom: 20%;
+		margin-top: 0;
 	}
 
-	html {
-		cursor: default;
-	}
-}
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-	position: fixed;
-	display: none;
-	right: 15px;
-	bottom: 15px;
-	z-index: 99999;
-}
-
-.back-to-top i {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	width: 40px;
-	height: 40px;
-	border-radius: 4px;
-	background: var(--accent-color);
-	color: #151515;
-	transition: all 0.4s;
-}
-
-.back-to-top i:hover {
-	background: #151515;
-	color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-	[data-aos-delay] {
-		transition-delay: 0 !important;
+	.section-title span {
+		-webkit-text-stroke: unset;
+		color: var(--accent-color);
+		font-size: 20vw;
 	}
 }
 
@@ -173,46 +169,6 @@ h6 {
 	}
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-	padding: 60px 0;
-	overflow: hidden;
-}
-
-.section-title {
-	text-align: center;
-	margin: 7% 0;
-	text-transform: capitalize;
-	font-size: 9vw;
-	font-weight: 700;
-	font-family: 'Poppins', sans-serif !important;
-	color: rgba(255, 255, 255, 0);
-	-webkit-text-stroke: 3px var(--gray);
-}
-
-.section-title span {
-	-webkit-text-stroke: 3px var(--accent-color);
-	font-size: 12vw;
-	margin-left: 7px;
-}
-
-@media (max-width: 768px) {
-	.section-title {
-		-webkit-text-stroke: unset;
-		color: var(--gray);
-		font-size: 12vw;
-		margin-bottom: 20%;
-		margin-top: 0;
-	}
-
-	.section-title span {
-		-webkit-text-stroke: unset;
-		color: var(--accent-color);
-		font-size: 20vw;
-	}
-}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -377,73 +333,6 @@ section {
 
 .contact .info .email p a:hover {
 	opacity: 0.7;
-}
-
-@-webkit-keyframes animate-loading {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-@keyframes animate-loading {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-	padding: 15px 0;
-	background: whitesmoke;
-	min-height: 40px;
-	margin-top: 74px;
-}
-
-.breadcrumbs h2 {
-	font-size: 28px;
-	font-weight: 400;
-}
-
-.breadcrumbs ol {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.breadcrumbs ol li + li {
-	padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-	display: inline-block;
-	padding-right: 10px;
-	color: #2f2f2f;
-	content: '/';
-}
-
-@media (max-width: 992px) {
-	.breadcrumbs {
-		margin-top: 68px;
-	}
-	.breadcrumbs .d-flex {
-		display: block !important;
-	}
-	.breadcrumbs ol {
-		display: block;
-	}
-	.breadcrumbs ol li {
-		display: inline-block;
-	}
 }
 
 /*--------------------------------------------------------------
