@@ -6,7 +6,6 @@
 --------------------------------------------------------------*/
 :root {
 	--gray: #343436;
-	/*--secondary-color:#ffc451;*/
 	--accent-color: #4090bb;
 }
 
@@ -24,7 +23,6 @@ a {
 }
 
 a:hover {
-	color: #ffd584;
 	text-decoration: none;
 }
 
@@ -186,7 +184,7 @@ h6 {
 	color: rgba(255, 255, 255, 0);
 	text-align: center;
 	font-family: 'Poppins', sans-serif !important;
-	-webkit-text-stroke: 3px white;
+	-webkit-text-stroke: 2px white;
 }
 
 #hero h1 span {
