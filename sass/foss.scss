@@ -7,30 +7,36 @@
 		background-size: cover;
 
 		.overlay {
-			padding-bottom: 300px;
+			padding: 150px 0;
 			width: 100%;
 
 			background: rgba(0, 0, 0, 0.1);
 			backdrop-filter: saturate(180%) blur(20px);
 			-webkit-backdrop-filter: saturate(180%) blur(20px);
 
-			.title-text {
-				//background-color: lightblue;
-				width: 100%;
-				text-align: center;
+			.title-wrapper {
+				display: flex;
+				justify-content: center;
 
-				//font-family: sans-serif;
-				font-weight: 700;
-				font-size: 8rem;
+				.title {
+					//background-color: lightblue;
+					width: fit-content;
+					text-align: center;
+					padding: 0 !important;
 
-				color: rgba(0, 0, 0, 0);
-				-webkit-text-stroke: 1px #fff;
+					//font-family: sans-serif;
+					line-height: 10rem;
+					font-weight: 700;
+					font-size: 8rem;
 
-				transition-duration: 400ms;
-
-				&:hover {
 					color: rgba(255, 255, 255, 1);
-					-webkit-text-stroke: 0px #fff;
+
+					transition-duration: 400ms;
+
+					/*&:hover {
+						color: rgba(0, 0, 0, 0);
+						-webkit-text-stroke: 1px #fff;
+					}*/
 				}
 			}
 
@@ -39,7 +45,52 @@
 				color: #fff;
 				font-size: 1.2rem;
 
+				.date-container {
+					//background-color: lightblue;
+					margin-top: 30px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					.badge-wrapper {
+						height: 38px;
+						//background-color: lightsalmon;
+						padding: 20px;
+						border-radius: 7px;
+
+						display: flex;
+						align-items: center;
+						justify-content: center;
+
+						background: rgba(255, 255, 255, 0.3);
+						backdrop-filter: saturate(180%) blur(20px);
+						-webkit-backdrop-filter: saturate(180%) blur(20px);
+
+						p {
+							margin: 5px 0 0 10px;
+							line-height: 38px;
+						}
+
+						transition-duration: 400ms;
+
+						&:hover {
+							transform: scale(1.1, 1.1);
+						}
+					}
+
+					.badge-wrapper:first-child {
+						margin-right: 20px;
+					}
+				}
+
+				.info {
+					margin-top: 100px;
+					padding: 0 50px;
+					text-align: justify;
+				}
+
 				.box-container {
+					margin-top: 100px;
 					display: flex;
 					justify-content: space-evenly;
 					flex-wrap: wrap;
