@@ -51,6 +51,7 @@
 					display: flex;
 					justify-content: center;
 					align-items: center;
+					flex-wrap: wrap;
 
 					.badge-wrapper {
 						height: 38px;
@@ -114,13 +115,72 @@
 							transform: scale(1.05, 1.05);
 						}
 					}
+				}
+			}
+		}
+	}
+}
 
-					.box-3 {
-						//width: 350px;
+@media screen and (max-width: 900px) {
+	.foss {
+		.container-fluid {
+			.overlay {
+				padding: 50px 0;
+				.title-wrapper {
+					.title {
+						font-size: 3.5rem;
+						line-height: 4.5rem;
+					}
+				}
+
+				.main-content {
+					.date-container {
+						.badge-wrapper:first-child {
+							margin: 0 0 15px 0;
+						}
 					}
 
-					.bpx-4 {
-						width: fit-content;
+					.info {
+						margin-top: 50px;
+						padding: 0 10px;
+
+						ul {
+							margin: 30px 0 30px -20px;
+							//background-color: lightblue;
+						}
+					}
+
+					.box-container {
+						margin-top: 50px;
+
+						.box {
+							width: 100%;
+							margin-bottom: 20px;
+							padding: 30px;
+
+							ul {
+								margin-left: -20px;
+							}
+						}
+
+						.box-4 {
+							ul {
+								text-align: justify;
+								font-size: 1.1rem;
+
+								li {
+									margin: 15px 0;
+								}
+							}
+						}
+
+						.box-1 {
+							ul {
+								li {
+									margin: 15px 0;
+								}
+							}
+						}
 					}
 				}
 			}
