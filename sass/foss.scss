@@ -71,16 +71,44 @@
 							margin: 5px 0 0 10px;
 							line-height: 38px;
 						}
-
-						transition-duration: 400ms;
-
-						&:hover {
-							transform: scale(1.1, 1.1);
-						}
 					}
 
 					.badge-wrapper:first-child {
 						margin-right: 20px;
+					}
+				}
+
+				.register-btn-wrapper {
+					margin: 70px 0;
+					display: flex;
+					justify-content: center;
+
+					button {
+						height: 55px;
+						width: 170px;
+						line-height: 50px;
+
+						color: #fff;
+						font-weight: 600;
+						font-size: 1.4rem;
+
+						outline: none;
+						border-radius: 10px;
+						border: none;
+
+						background: rgba(255, 255, 255, 0.5);
+						backdrop-filter: saturate(180%) blur(20px);
+						-webkit-backdrop-filter: saturate(180%) blur(20px);
+
+						&:hover {
+							cursor: pointer;
+						}
+
+						transition-duration: 200ms;
+
+						&:active {
+							transform: scale(0.9);
+						}
 					}
 				}
 
