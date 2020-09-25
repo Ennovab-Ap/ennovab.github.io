@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+body {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
 .foss {
+	a {
+		text-decoration: none;
+		color: rgb(238, 199, 25);
+
+		&:hover {
+			color: blue;
+		}
+	}
+
 	.container-fluid {
-		//height: 1000px;
+		font-family: 'Josefin Sans', sans-serif;
 		padding: 0;
 		background-image: url('../assets/images/foss/bck-2.jpg');
 		background-repeat: no-repeat;
@@ -17,6 +37,7 @@
 			.title-wrapper {
 				display: flex;
 				justify-content: center;
+				padding: 70px 0;
 
 				.title {
 					//background-color: lightblue;
