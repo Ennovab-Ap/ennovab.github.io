@@ -11,6 +11,39 @@
 	padding-top: 0;
 }
 
+.events .foss .btn-wrapper {
+	margin-top: 30px;
+	position: relative;
+	/*background-color: lightblue;*/
+	left: 135px;
+	width: 320px;
+}
+
+.events .foss .btn-wrapper button {
+	height: 50px;
+	padding: 3px 40px 0 40px;
+	line-height: 50px;
+
+	color: #fff;
+	font-size: 1.2rem;
+
+	outline: none;
+	border: none;
+	border-radius: 7px;
+	background-color: rgb(20, 20, 20);
+
+	box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+	transition-duration: 300ms;
+}
+
+.events .foss .btn-wrapper button:hover {
+	cursor: pointer;
+}
+
+.events .foss .btn-wrapper button:active {
+	transform: scale(0.9);
+}
+
 /* The actual timeline (the vertical ruler) */
 .events .timeline {
 	position: relative;
@@ -150,5 +183,13 @@
 	/* Make all right containers behave like the left ones */
 	.events .timeline .right {
 		left: 0%;
+	}
+
+	.events .foss .btn-wrapper {
+		width: 100%;
+		left: 0;
+
+		display: flex;
+		justify-content: center;
 	}
 }
