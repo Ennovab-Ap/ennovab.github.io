@@ -86,6 +86,38 @@
 		$('.mobile-nav, .mobile-nav-toggle').hide();
 	}
 
+	//disable element inspector
+	let message =
+		"Well, if you're smart enough to still see this message after so many restrictions, you might as well solve all the issues yourself....that would be easier. And if you've no idea what I'm talking about.......text me, let's go on a date ";
+	document.onkeydown = function (e) {
+		if (event.keyCode == 123) {
+			console.log(message);
+			return false;
+		}
+		if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+			console.log(message);
+			return false;
+		}
+		if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+			console.log(message);
+			return false;
+		}
+		if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+			console.log(message);
+			return false;
+		}
+		if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+			console.log(message);
+			return false;
+		}
+		if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+			console.log(message);
+			return false;
+		}
+	};
+	// prevents right clicking
+	document.addEventListener('contextmenu', e => e.preventDefault());
+
 	// Navigation active state on scroll
 	var nav_sections = $('section');
 	var main_nav = $('.nav-menu, #mobile-nav');
